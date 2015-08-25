@@ -1,0 +1,27 @@
+{
+  "session": {
+    "new": false,
+    "sessionId": "session1234",
+    "attributes": {},
+    "user": {
+      "userId": null
+    },
+    "application": {
+      "applicationId": "amzn1.echo-sdk-ams.app.df6cbba5-617c-4a42-943b-68003f3dc94d"
+    }
+  },
+  "version": "1.0",
+  "request": {
+    "intent": {
+      "slots": {
+        "Symbol": {
+          "name": "Symbol",
+          "value": "the Amazon"
+        }
+      },
+      "name": "StockIntent"
+    },
+    "type": "IntentRequest",
+    "requestId": "amzn1.echo-api.request.testreq-1"
+  }
+}

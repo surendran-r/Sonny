@@ -10,7 +10,14 @@ var stockUtils = (function() {
     symbolMapping['twitter'] = 'TWTR';
 
     function getSymbolForCompany(company) {
-        return symbolMapping[company.toLowerCase()];
+        //Remove the extra "the" word that comes in as part of the company name
+        var res = company.split(" ");
+        for(var i = 0 ; i<res.length; i=i+1) {
+            var symbol = symbolMapping[res[i].toLowerCase()];
+            if(symbol !== undefined) {
+                return symbol;
+            }
+        }
     }
 
     function getNasdaqQuote(symbol, reponseCallback) {
