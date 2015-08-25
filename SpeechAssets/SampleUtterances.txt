@@ -1,0 +1,10 @@
+StockIntent stock price of {Amazon|Symbol}
+StockIntent stock price of {Google|Symbol}
+StockIntent stock price of {Apple|Symbol}
+StockIntent {Apple|Symbol} stock price
+StockIntent {Google|Symbol} stock price
+StockIntent how is {Amazon|Symbol} stock doing
+StockIntent what about {Apple|Symbol} stock doing
+
+RecipeIntent recipe for {Dosa|DishName}
+RecipeIntent recipe for {Rasam|DishName} 
